@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.menu-area ul {
+    float: right;
+    overflow: auto;
+    margin-right: 40px;
+}
+
+.menu-area ul li {
+    float: left;
+    overflow: hidden;
+    margin: 0px 30px;
+}
+
+.menu-area ul li a {
+    color: gray;
+    text-decoration: none;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 100%;
+}
+.menu-area p {
+    width: 30%;
+    float: left;
+}

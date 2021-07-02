@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header-right ul {
+    margin: 20px 100px 10px 0px;
+}
+.header-right ul li {
+    list-style: none;
+    margin: 0px 20px;
+    float: left;
+}
+.header-right ul li a {
+    color: #656565;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+.h1 {
+    color: #3B2D59;
+    letter-spacing: 0px;
+    margin-top: 120px;
+}
+h2 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+p {
+    color: dimgrey;
+}
+
+.highlight {
+    color: #FF7D58;
+}
+
+.float {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 60px;
+}
+img {
+    width: 100%;
+}
+
+.half-width {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.project-area h2 {
+    text-align: center;
+}
+
+
+.project-area {
+    background-color: #F8F8FC;
+    height: 700px;
+    padding: 60px 0px;
+}
+.project img {
+    width: 96%;
+    text-align: center;
+}
+.paragraph {
+    color: #6E6E6E;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.link-button {
+    text-decoration: none;
+    background-color: #FF5C52;
+    color: floralwhite;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.project-area h3 {
+    font-size: 35px;
+    text-align: center;
+    margin: 40px 0px;
+    color: #3B2D59;
+}
+
+.work-area {
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: 100px 0px;
+}
+.work {
+    height: 200px;
+    width: 60%;
+    margin: auto;
+    background-image: linear-gradient(to bottom, #7500DE, #6700C4);
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.inquiry {
+    display: flex;
+    justify-content: space-around;
+}
+.inquiry span {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: floralwhite;
+    margin-top: 70px;
+}
+.inquiry a {
+    margin-top: 70px;
+    background-image: linear-gradient(to bottom,#FC5251, #ff7979);
+    height: 40px;
+    padding: 10px 20px 0px 20px;
+    border: none;
+    text-decoration: none;
+    color: floralwhite;
+    border-radius: 7px;
+    border-color: transparent;
+}
+
+.project h3 {
+    font-size: 20px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.projects {
+    padding-left: 100px;
+}
+
+.project {
+    float: left;
+    width: 26%;
+    margin: 1%;
+    padding: 15px 10px 20px 15px;
+    background-color: white;
+    border-radius: 25px;
+    height: 380px;
+}
+
+.social-area {
+    padding-bottom: 60px;
+}
+.social {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.social h4 {
+    font-size: 24px;
+    color: #6F6B75;
+}
+.social p {
+    font-size: 30px;
+    color: #3D2F5B;
+    font-weight: 700;
+}
+.social img {
+    margin: 10px 10px;
+    height: 40px;
+    width: 40px;
+}
